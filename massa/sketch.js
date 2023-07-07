@@ -46,7 +46,7 @@ function setup() {
   hideGrid();
   getOrbit().enabled = false;
   hideToolbox()
-  
+
 textSize(32);
   fill(255)
   inmass = createInput();
@@ -66,7 +66,7 @@ textSize(32);
 
   diffuseMap(mars);
   mars2 = sphere(x + 3, y, z, r);
- 
+
 }
 
 function draw() {
@@ -78,9 +78,9 @@ function draw() {
 
   a += 0.1;
   text("inserisci la massa (peso)",windowWidth/2-200,50)
-  text(earthW,windowWidth/2 ,windowHeight/2+150);
-  text(moonW,windowWidth/2-300 ,windowHeight/2+150);
-  text(marsW,windowWidth/2+300 ,windowHeight/2+150);
+  text(earthW,windowWidth/2 ,windowHeight/2+200);
+ text(moonW,windowWidth/2-350 ,windowHeight/2+200);
+ text(marsW,windowWidth/2+350 ,windowHeight/2+200);
 }
 
 function calcola() {
